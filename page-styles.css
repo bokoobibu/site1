@@ -1,0 +1,121 @@
+#main {
+    padding-left: 495px;
+    padding-right: 125px;
+}
+
+#header {
+    margin-bottom: 113px;
+}
+
+#section {
+    padding-right: 0;
+}
+
+#header {
+    padding-right: 182px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    gap: 147px;
+    padding: 120px 113px 40px 110px;
+    border-radius: 41px;
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.85);
+}
+
+#content__title {
+    margin-bottom: 52px;
+
+    color: #111;
+    font-family: 'Oswald-Bold';
+    font-size: 56px;
+}
+
+.content__text {
+    line-height: 44px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: 'Roboto-Regular';
+    color: #111;
+}
+
+.content__item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.content__item:nth-child(1) {
+    width: 55%;
+}
+
+.content__item:nth-child(1) #content__title + .content__text::after {
+    content: '';
+    margin-top: 8px;
+    display: block;
+    border-radius: 12px;
+    width: 90px;
+    height: 10px;
+
+    background: #A276FF;
+}
+
+.content__item:nth-child(1) #content__title + .content__text {
+    margin-bottom: 30px;
+}
+
+.content__item:nth-child(1) #content__title + .content__text + .content__text {
+    margin-bottom: 40px;
+}
+
+.content__item:nth-child(2) {
+    width: 45%;
+}
+
+.content__title-sub {
+    font-family: 'Oswald-Bold';
+    font-size: 27px;
+    color: #111;
+}
+
+.content__title-sub + p.content__text {
+    padding-bottom: 40px;
+}
+
+#content__figure {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    width: 486px;
+    margin-top: 6px;
+    height: 786px;
+    box-sizing: border-box;
+}
+
+#content__figure-border {
+    display: flex;
+    position: relative;
+    box-shadow: 4px 4px 30px 0 #111;
+    border: #FFF solid 6px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 42px;
+}
+
+#content__figure-img {
+    position: relative;
+    width: 700px;
+    height: 800px;
+    left: -33px;
+    top: -33px;
+}
+
+#content__figcaption {
+    font-family: 'Montserrat-Regular';
+    color: #111;
+    text-align: center;
+}
